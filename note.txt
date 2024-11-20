@@ -1,0 +1,2 @@
+1. Blade.php file jodi kono css/js likhe thaki tahole seta npm run dev/build chara o css/js kaj korbe 
+2. kintu app.css/app.js kono jodi kichu likhi thaki tahole npm run dev/build kora chara kono css, js kaj korbe na. beacuse ami vite use korechi. 
