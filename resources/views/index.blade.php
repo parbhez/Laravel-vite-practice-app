@@ -7,10 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel 11 vite </title>
 
-    <style>
-        {{ Vite::style('app.css') }}
-    </style>
-
     @vite('resources/js/app.js')
 </head>
 
