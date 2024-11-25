@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=h2, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel 11 vite </title>
+
+    <style>
+        {{ Vite::style('app.css') }}
+    </style>
+
     @vite('resources/js/app.js')
 </head>
 
@@ -22,8 +27,8 @@
 <body>
 
     <div class="images">
-        <img src="{{ Vite::asset('resources/img/1.avif') }}" alt="image 1">
-        <img src="{{ Vite::asset('resources/img/2.png') }}" alt="Image 2">
+        <img src="{{ Vite::image('1.avif') }}" alt="image 1">
+        <img src="{{ Vite::image('2.png') }}" alt="Image 2">
     </div>
 
 
