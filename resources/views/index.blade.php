@@ -21,7 +21,13 @@
 
 <body>
 
-    <h2 id="color">Hello, </h2>
+    <h1>Posts</h1>
+
+    <ul>
+        @foreach (json_decode(File::get(base_path() . '/data/posts.json')) as $post)
+            <li>{{ $post->title }}</li>
+        @endforeach
+    </ul>
 
 
 

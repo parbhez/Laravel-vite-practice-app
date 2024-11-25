@@ -7,7 +7,16 @@ export default defineConfig({
         Inspect(), // only applies in dev mode
         laravel({
             input: ["resources/js/app.js"],
-            refresh: true,
+            // refresh: true,
+            // refresh: "data/**",
+            refresh: [
+                {
+                    paths: ["data/posts.json"],
+                    config: {
+                        delay: 3000,
+                    },
+                },
+            ],
         }),
     ],
 
