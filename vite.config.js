@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [
         Inspect(), // only applies in dev mode
         laravel({
-            input: ["resources/css/app.css", "resources/js/app.js"],
+            input: ["resources/js/app.js"],
             refresh: true,
         }),
     ],
