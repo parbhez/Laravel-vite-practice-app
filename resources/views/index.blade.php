@@ -20,12 +20,10 @@
 
 
 
-<body>
+<body class="bg-[#14111b] flex flex-col justify-center items-center">
 
     <div class="images">
-        <img src="{{ Vite::image('1.avif') }}" alt="image 1">
         <img src="{{ Vite::image('2.png') }}" alt="Image 2">
-        <img src="{{ Vite::image('5.gif') }}" alt="Image 2">
     </div>
 
 
