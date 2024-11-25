@@ -17,11 +17,11 @@ h1 {
     margin: 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.images {
+    display: flex;
+    gap: 5px;
 }
 
-li {
-    margin: 5px 0;
+.img {
+    width: 150px;
 }

@@ -21,13 +21,10 @@
 
 <body>
 
-    <h1>Posts</h1>
-
-    <ul>
-        @foreach (json_decode(File::get(base_path() . '/data/posts.json')) as $post)
-            <li>{{ $post->title }}</li>
-        @endforeach
-    </ul>
+    <div class="images">
+        <img src="{{ Vite::asset('resources/img/1.avif') }}" alt="image 1">
+        <img src="{{ Vite::asset('resources/img/2.png') }}" alt="Image 2">
+    </div>
 
 
 
